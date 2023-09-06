@@ -135,6 +135,7 @@ GEM
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
+    pg (1.5.4)
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
@@ -246,6 +247,7 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.7, >= 7.0.7.2)
   rubocop (>= 1.0, < 2.0)
