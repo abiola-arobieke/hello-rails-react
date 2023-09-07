@@ -4,7 +4,7 @@ export const getGreeting = createAsyncThunk(
     'messages/getGreeting',
     async () => {
       try {
-        const response = await fetch('https://www.greetingsapi.com/random');
+        const response = await fetch('http://127.0.0.1:3000/api/v1/messages/random');
   
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
