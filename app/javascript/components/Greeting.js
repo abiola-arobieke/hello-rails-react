@@ -18,7 +18,7 @@ const Greeting = () => {
   return (
     <div>
       <h1>Random Greeting</h1>
-      <h4>Reload to get a new greeting</h4>
+      <h4>Reload the browser to get a new greeting</h4>
       <h5>{greeting}</h5>
     </div>
   );
