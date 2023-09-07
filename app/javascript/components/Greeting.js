@@ -17,8 +17,8 @@ const Greeting = () => {
 
   return (
     <div>
-      <h1>Random Greetings</h1>
-      <h4>Every time you reload the page, you'll see a new greeting!</h4>
+      <h1>Random Greeting</h1>
+      <h4>Reload to get a new greeting</h4>
       <h5>{greeting}</h5>
     </div>
   );
